@@ -1,0 +1,41 @@
+.container_example {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  gap: 2rem;
+  color: white;
+  box-shadow: #353535 0px 0px 10px;
+  padding: 2rem;
+  border-radius: 2rem;
+  background-color: rgb(66, 66, 66);
+  margin: 3rem 0;
+  height: max-content;
+
+  transition: height 0.3s ease;
+}
+
+.container_example.expanded {
+  height: auto;
+}
+.interaktif_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  font-size: 2rem;
+  gap: 2rem;
+}
+
+.interaktif_button button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.title_interaktif {
+  margin-left: 0;
+  margin-right: auto;
+}

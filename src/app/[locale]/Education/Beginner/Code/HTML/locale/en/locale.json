@@ -1,0 +1,32 @@
+{
+  "paragraft": [
+    "Have you ever wondered how to display text, images, videos, and other elements on a web page? Well, you can do all of that using HTML!",
+    "Oh, so we need to learn HTML first, right?",
+    "Yes, HTML is like the foundation of every web page. So before learning any other programming language, you need to understand how to build the structure of a web page using HTML.",
+    "Is learning HTML difficult?",
+    "No need to overthink it—HTML is super easy! You just need to memorize a few basic tags like <p> for paragraphs, <h1> for headings, and <a> for links. After that, you can start creating your first web page!",
+    "Simple, right?",
+    "Let’s take a simple example—for instance, you want to write a short story. A short story typically has a title, paragraphs, and maybe an image. Take a look at the box below:",
+    "From the example above, we can understand the basic structure of HTML. Each sentence or paragraph is wrapped with the appropriate tag. For example, we wrap the title with the <h4> tag and the paragraphs with the <p> tag. This way, the browser knows which content should be displayed as a title and which as a paragraph.",
+    "Easy, right? So, HTML is like a language that helps us tell the browser how to display our content. We can easily add text, images, videos, and other elements. Just use the appropriate tags, and the browser will understand what we mean.",
+    "Interested in learning more?"
+  ],
+  "definition": {
+    "title": "Definition",
+    "content": {
+      "text": "HTML (HyperText Markup Language) is the standard markup language for creating web pages. HTML is used to structure content on the web, such as text, images, links, and other elements. With HTML, we can define how these elements are displayed in the browser.",
+      "highlight": "HTML (Hyper Text Markup Language)"
+    }
+  },
+  "example": {
+    "title": "HTML Structure Example",
+    "button": { "text": "text", "explanation": "explanation" },
+    "content": {
+      "title": "A Piece of Bread on Sunday",
+      "paragraphs": [
+        "In a small village surrounded by green rice fields and an endless blue sky, lived a boy named Raka. He lived with his mother in a simple wooden house. Since his father passed away, his mother had been working as a traveling fried snack vendor to make a living.",
+        "Every Sunday morning, Raka would sit in front of the house, waiting for his mother to return from the market. Sunday was a special day—not because there was no school, but because his mother always brought him a piece of bread left over from her unsold goods."
+      ]
+    }
+  }
+}

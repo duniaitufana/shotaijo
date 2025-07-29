@@ -1,0 +1,35 @@
+{
+  "paragraft": [
+    "Bir web sayfasında metin, resim, video ve diğer öğelerin nasıl görüntülendiğini hiç merak ettiniz mi? Aslında tüm bunları HTML kullanarak yapabilirsiniz!",
+    "Yani önce HTML öğrenmemiz gerekiyor, değil mi?",
+    "Evet, HTML her web sayfasının temelidir. Bu yüzden başka bir programlama dilini öğrenmeden önce, HTML ile bir web sayfasının yapısının nasıl oluşturulduğunu anlamanız gerekir.",
+    "HTML öğrenmek zor mu?",
+    "Hiç endişelenmeyin—HTML gerçekten çok kolay! <p> paragraf için, <h1> başlık için ve <a> bağlantı için gibi birkaç temel etiketi ezberlemeniz yeterli. Sonrasında kendi ilk web sayfanızı oluşturmaya başlayabilirsiniz!",
+    "Basit, değil mi?",
+    "Hadi basit bir örneğe bakalım—örneğin kısa bir hikaye yazmak istiyorsunuz. Kısa bir hikayede genellikle bir başlık, paragraflar ve belki bir resim olur. Aşağıdaki kutuya göz atın:",
+    "Yukarıdaki örneğe bakarak HTML'in temel yapısını anlayabiliriz. Her cümle veya paragraf uygun etiketle sarılmıştır. Örneğin başlığı <h4> etiketiyle, paragrafları ise <p> etiketiyle sarıyoruz. Böylece tarayıcı hangi içeriğin başlık, hangisinin paragraf olduğunu anlayabilir.",
+    "Kolay, değil mi? HTML, tarayıcıya içeriği nasıl görüntüleyeceğimizi söylememize yardımcı olan bir dildir. Metin, resim, video ve diğer öğeleri kolayca ekleyebiliriz. Doğru etiketleri kullandığınız sürece tarayıcı ne demek istediğimizi anlar.",
+    "Daha fazlasını öğrenmek ister misiniz?"
+  ],
+  "definition": {
+    "title": "Tanım",
+    "content": {
+      "text": "HTML (HyperText Markup Language), web sayfaları oluşturmak için kullanılan standart işaretleme dilidir. HTML, web üzerindeki metin, resim, bağlantı ve diğer öğelerin yapısını tanımlamak için kullanılır. HTML sayesinde bu öğelerin tarayıcıda nasıl görüneceğini belirleyebiliriz.",
+      "highlight": "HTML (HyperText Markup Language)"
+    }
+  },
+  "example": {
+    "title": "HTML Yapı Örneği",
+    "button": {
+      "text": "metin",
+      "explanation": "açıklama"
+    },
+    "content": {
+      "title": "Pazar Günü Bir Dilim Ekmek",
+      "paragraphs": [
+        "Yeşil pirinç tarlaları ve uçsuz bucaksız mavi gökyüzüyle çevrili küçük bir köyde, Raka adında bir çocuk yaşıyordu. Annesiyle birlikte sade bir ahşap evde kalıyordu. Babası vefat ettikten sonra annesi geçimini sağlamak için sokakta kızartma satıyordu.",
+        "Her pazar sabahı, Raka evin önüne oturur, annesinin pazardan dönmesini beklerdi. Pazar günü onun için özeldi—okul olmadığı için değil, annesi her zaman satamadığı bir dilim ekmeği ona getirdiği için."
+      ]
+    }
+  }
+}

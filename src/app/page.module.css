@@ -1,0 +1,163 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100dvh;
+  background-color: #f0f0f0;
+  gap: 2rem;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.heroTitle {
+  font-size: 5.4rem;
+  color: #333;
+  z-index: 3;
+}
+
+.heroDescription {
+  font-size: 2rem;
+  color: #666;
+  text-align: center;
+  z-index: 3;
+}
+
+.heroImage:nth-child(1) {
+  position: absolute;
+  bottom: 60%;
+
+  left: 22%;
+  transform: translateX(-50%) translateY(50%) rotate(-10deg);
+  object-fit: cover;
+  width: 13rem;
+  height: 13rem;
+  /* animation: repeatImg 4s ease-in-out infinite; */
+  transition: transform 0.3s ease-in-out;
+  z-index: 2;
+}
+
+.heroImage:nth-child(1):hover {
+  transform: scale(1.03) translateX(-50%) translateY(50%) rotate(-10deg);
+  animation-play-state: paused;
+}
+
+.heroImage:nth-child(2) {
+  position: absolute;
+  top: 30%;
+  right: 12%;
+  transform: translateX(-50%) translateY(50%) rotate(20deg);
+  object-fit: cover;
+  width: 13rem;
+  height: 13rem;
+  /* animation: repeatImg2 4s ease-in-out 1s infinite; */
+  transition: transform 0.3s ease-in-out;
+  z-index: 2;
+}
+
+.heroImage:nth-child(2):hover {
+  transform: scale(1.03) translateX(-50%) translateY(50%) rotate(20deg);
+  animation-play-state: paused;
+}
+
+/* ===========================
+Features Section
+==============================*/
+
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #a3dc9a;
+  min-height: 100dvh;
+}
+.featuresImage {
+  flex-basis: 60%;
+  text-align: center;
+}
+.featuresImage1 {
+  width: 80%;
+}
+
+.featuresContent {
+  align-self: flex-start;
+  font-size: 2rem;
+  flex-basis: 40%;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.featuresTitle,
+.featuresTitleTwo {
+  color: #333;
+}
+
+.featuresDescription,
+.featuresDescriptionTwo {
+  color: #666;
+}
+
+.featuresIcon {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.featuresIcon:hover {
+  transform: rotate(-30deg) scale(1.1);
+}
+
+.featuresTwo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #fff9bd;
+  min-height: 100dvh;
+}
+
+.featuresContentTwo {
+  align-self: flex-start;
+  font-size: 2rem;
+  flex-basis: 40%;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.featuresImageTwo {
+  flex-basis: 60%;
+  text-align: center;
+}
+
+/* @keyframes repeatImg {
+  0% {
+    bottom: 55%;
+  }
+  50% {
+    bottom: 60%;
+  }
+  100% {
+    bottom: 55%;
+  }
+}
+
+@keyframes repeatImg2 {
+  0% {
+    top: 25%;
+  }
+  50% {
+    top: 30%;
+  }
+  100% {
+    top: 25%;
+  }
+} */

@@ -1,0 +1,35 @@
+{
+  "paragraft": [
+    "Hast du dich schon mal gefragt, wie man Text, Bilder, Videos und andere Elemente auf einer Webseite anzeigen kann? Mit HTML ist das alles möglich!",
+    "Oh, also müssen wir zuerst HTML lernen, oder?",
+    "Genau! HTML ist das Fundament jeder Webseite. Bevor du also andere Programmiersprachen lernst, solltest du verstehen, wie man mit HTML die Struktur einer Webseite aufbaut.",
+    "Ist es schwer, HTML zu lernen?",
+    "Keine Sorge – HTML ist super einfach! Du musst dir nur ein paar grundlegende Tags merken, wie <p> für Absätze, <h1> für Überschriften und <a> für Links. Danach kannst du direkt deine erste Webseite erstellen!",
+    "Einfach, oder?",
+    "Schauen wir uns ein einfaches Beispiel an – sagen wir, du möchtest eine kurze Geschichte schreiben. So eine Geschichte hat meistens einen Titel, ein paar Absätze und vielleicht ein Bild. Schau dir das Beispiel unten an:",
+    "Anhand dieses Beispiels kannst du die Grundstruktur von HTML verstehen. Jeder Satz oder Absatz wird mit einem passenden Tag umschlossen. Zum Beispiel nutzen wir <h4> für den Titel und <p> für die Absätze. So weiß der Browser, was als Überschrift und was als Textabschnitt dargestellt werden soll.",
+    "Klingt einfach, oder? HTML ist wie eine Sprache, mit der wir dem Browser sagen, wie Inhalte dargestellt werden sollen. Du kannst ganz leicht Texte, Bilder, Videos und andere Elemente hinzufügen. Verwende einfach die passenden Tags, und der Browser weiß, was zu tun ist.",
+    "Möchtest du noch mehr lernen?"
+  ],
+  "definition": {
+    "title": "Definition",
+    "content": {
+      "text": "HTML (HyperText Markup Language) ist die standardisierte Auszeichnungssprache zur Erstellung von Webseiten. HTML wird verwendet, um Inhalte im Web zu strukturieren – wie Texte, Bilder, Links und andere Elemente. Mit HTML können wir genau festlegen, wie diese Elemente im Browser dargestellt werden.",
+      "highlight": "HTML (HyperText Markup Language)"
+    }
+  },
+  "example": {
+    "title": "HTML-Struktur-Beispiel",
+    "button": {
+      "text": "Text",
+      "explanation": "Erklärung"
+    },
+    "content": {
+      "title": "Ein Stück Brot am Sonntag",
+      "paragraphs": [
+        "In einem kleinen Dorf, umgeben von grünen Reisfeldern und einem endlosen blauen Himmel, lebte ein Junge namens Raka. Er wohnte mit seiner Mutter in einem einfachen Holzhaus. Seit sein Vater gestorben war, arbeitete seine Mutter als fahrende Verkäuferin von frittierten Snacks, um den Lebensunterhalt zu sichern.",
+        "Jeden Sonntagmorgen saß Raka vor dem Haus und wartete darauf, dass seine Mutter vom Markt zurückkam. Der Sonntag war ein besonderer Tag – nicht, weil keine Schule war, sondern weil seine Mutter ihm immer ein Stück übrig gebliebenes Brot mitbrachte."
+      ]
+    }
+  }
+}

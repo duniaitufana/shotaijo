@@ -1,0 +1,102 @@
+.Sidebar {
+  width: 6%;
+  height: 100dvh;
+  flex-basis: 6%;
+  position: relative;
+}
+
+.SidebarList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 4%;
+  height: 95dvh;
+  justify-content: flex-start;
+  gap: 2rem;
+  list-style-type: none;
+  padding-top: 3rem;
+  position: fixed;
+  top: 0;
+  background-color: #a3dc9a;
+  z-index: 1000;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 4rem;
+  margin: 1%;
+}
+.SidebarItem {
+  cursor: pointer;
+}
+.SidebarIcon {
+  width: 4rem;
+}
+
+/* Transisi Sidebar Icons*/
+
+/* Library icon */
+
+.SidebarIconRectLibrary {
+  fill: none;
+  stroke: #ffffff;
+  animation: onLeave 0.5s ease-in-out;
+}
+
+.SidebarIconRectLibrary.active {
+  stroke: #fff9bd;
+  animation: onHover 0.5s ease-in-out;
+}
+
+/* Bookmark icon */
+
+.SidebarIconRectBookmark {
+  fill: none;
+  stroke: #ffffff;
+  animation: onLeave 0.5s ease-in-out;
+}
+
+.SidebarIconRectBookmark.active {
+  stroke: #fff9bd;
+  animation: onHover 0.5s ease-in-out;
+}
+
+/* Note icon */
+
+.SidebarIconRectNote {
+  fill: none;
+  stroke: #ffffff;
+  animation: onLeave 0.5s ease-in-out;
+}
+
+.SidebarIconRectNote.active {
+  stroke: #fff9bd;
+  animation: onHover 0.5s ease-in-out;
+}
+
+.SidebarIconLanguage {
+  fill: none;
+  stroke: #ffffff;
+  animation: onLeave 0.5s ease-in-out;
+}
+
+.SidebarIconLanguage.active {
+  stroke: #fff9bd;
+  animation: onHover 0.5s ease-in-out;
+}
+
+@keyframes onLeave {
+  from {
+    stroke: #fff9bd;
+  }
+  to {
+    stroke: #ffffff;
+  }
+}
+@keyframes onHover {
+  from {
+    stroke: #ffffff;
+  }
+  to {
+    stroke: #fff9bd;
+  }
+}

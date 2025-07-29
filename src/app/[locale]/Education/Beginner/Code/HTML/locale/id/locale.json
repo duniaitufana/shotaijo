@@ -1,0 +1,32 @@
+{
+  "paragraft": [
+    "Pernah gak kamu penasaran gimana sih cara nampilin text, gambar, video dan elemen lainnya di halaman web? Nah semua itu bisa kamu lakukan dengan bahasa HTML loh!",
+    "Oh jadi kita harus tau bahasa HTML dulu ya bang?",
+    "Iya, HTML itu kayak fondasi dari semua halaman web. Jadi sebelum belajar bahasa pemrograman lain, kita harus ngerti dulu cara bikin struktur halaman web pake HTML.",
+    "Susah gak bang belajar HTML?",
+    "Gak usah overthinking, HTML itu gampang banget! Kamu cuma perlu hafalin beberapa tag dasar kayak <p> untuk paragraf,<h1> untuk judul, dan <a> untuk link. Setelah itu, kamu bisa mulai bikin halaman web pertamamu!.. ",
+    "Simple kan?",
+    "Kita ambil contoh sederhana, misalnya kamu mau bikin sebuah cerpen. Struktur cerpen itu kan ada judul, paragraf, dan mungkin gambar. Coba perhatikan kotak di bawah ini:",
+    "Nah dari contoh di atas kita jadi paham tentang struktur dasar HTML. Setiap kalimat atau paragraf kita bungkus dengan tag yang sesuai. Misalnya, judul kita bungkus dengan tag <h4> dan paragraf kita bungkus dengan tag <p>. Dengan begitu, browser bisa tahu mana yang harus ditampilkan sebagai judul dan mana yang sebagai paragraf.",
+    "Mudahkan? Jadi, HTML itu seperti bahasa yang membantu kita memberi tahu browser bagaimana menampilkan konten kita. Kita bisa menambahkan teks, gambar, video, dan elemen lainnya dengan mudah. Cukup gunakan tag yang sesuai, dan browser akan mengerti apa yang kita maksud.",
+    "Tertarik untuk belajar lebih lanjut?"
+  ],
+  "definition": {
+    "title": "Definisi",
+    "content": {
+      "text": "HTML (HyperText Markup Language) adalah bahasa markup standar untuk membuat halaman web. HTML digunakan untuk menyusun struktur konten di web, seperti teks, gambar, tautan, dan elemen lainnya. Dengan HTML, kita dapat menentukan bagaimana elemen-elemen ini ditampilkan di browser.",
+      "highlight": "HTML (Hyper Text Markup Language)"
+    }
+  },
+  "example": {
+    "title": "Contoh Struktur HTML",
+    "button": { "text": "text", "explanation": "Penjelasan" },
+    "content": {
+      "title": "Sepotong Roti di Hari Minggu",
+      "paragraphs": [
+        "Di sebuah desa kecil yang dikelilingi sawah hijau dan langit biru tanpa batas, hiduplah seorang anak laki-laki bernama Raka. Ia tinggal bersama ibunya di sebuah rumah kayu sederhana. Sejak ayahnya meninggal, ibunya bekerja sebagai penjual gorengan keliling demi menyambung hidup.",
+        "Setiap hari Minggu pagi, Raka akan duduk di depan rumah menunggu ibunya pulang dari pasar. Hari Minggu adalah hari istimewa—bukan karena libur sekolah, tapi karena ibunya selalu membawakan sepotong roti dari sisa dagangan yang tidak laku."
+      ]
+    }
+  }
+}

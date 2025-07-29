@@ -1,0 +1,45 @@
+.footer {
+  min-height: 50dvh;
+  background-color: #a3dc9a;
+  color: rgb(59, 57, 57);
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerText {
+  margin-top: 3rem;
+  font-size: 1.6rem;
+}
+.Moto {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.Moto2 {
+  font-size: 8.13rem;
+  font-weight: bold;
+}
+
+.highlight {
+  font-size: 9rem;
+  padding: 0.1rem;
+}
+.footerEmailContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.footerEmailText {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.footerEmail {
+  font-size: 2rem;
+  font-weight: bolder;
+  text-decoration: none;
+  color: rgb(59, 57, 57);
+  background-color: #ffd6ba;
+}
