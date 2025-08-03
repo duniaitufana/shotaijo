@@ -127,10 +127,10 @@ export default function Navbar() {
         >
           Contact
         </li>
-        <a href={`/${dataPathname.locale}/Education` || "/en/Education"}>
+        <a href={`/${dataPathname.locale}/education` || "/en/education"}>
           <li
             className={
-              pathname.split("/")[2] === "Education"
+              pathname.split("/")[2] === "education"
                 ? Styles.navItem + " " + Styles.active
                 : Styles.navItem
             }

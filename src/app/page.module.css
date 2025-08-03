@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   min-height: 100dvh;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
   gap: 2rem;
   position: relative;
   overflow-y: hidden;
@@ -59,6 +59,31 @@
   transform: scale(1.03) translateX(-50%) translateY(50%) rotate(20deg);
   animation-play-state: paused;
 }
+/* ===========================
+About Section
+==============================*/
+
+.About {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #ffffff;
+  min-height: 100dvh;
+}
+.AboutParagraft {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #666;
+  text-align: center;
+  max-width: 80rem;
+}
+
+.SVGAbout {
+  width: 14rem;
+}
 
 /* ===========================
 Features Section
@@ -70,7 +95,7 @@ Features Section
   justify-content: center;
   gap: 2rem;
   padding: 2rem;
-  background-color: #a3dc9a;
+  background-color: #ffffff;
   min-height: 100dvh;
 }
 .featuresImage {
@@ -88,7 +113,12 @@ Features Section
   padding: 3rem;
   display: flex;
   flex-direction: column;
+  border-left: 0.6rem dotted #a3dc9a;
   gap: 1.5rem;
+  transition: background-color 0.5s ease-in-out;
+}
+.featuresContent:hover {
+  background-color: #e0f7e0;
 }
 
 .featuresTitle,
@@ -119,7 +149,7 @@ Features Section
   justify-content: center;
   gap: 2rem;
   padding: 2rem;
-  background-color: #fff9bd;
+  background-color: #ffffff;
   min-height: 100dvh;
 }
 
@@ -130,12 +160,82 @@ Features Section
   padding: 3rem;
   display: flex;
   flex-direction: column;
+  border-right: 0.6rem dotted #a3dc9a;
   gap: 1.5rem;
+  transition: background-color 0.5s ease-in-out;
+}
+.featuresContentTwo:hover {
+  background-color: #e0f7e0;
 }
 
 .featuresImageTwo {
   flex-basis: 60%;
   text-align: center;
+}
+
+/* SVG Styles */
+
+.featuresImageSVG {
+  width: 20rem;
+}
+
+.featuresImageSVGTwo {
+  width: 15rem;
+}
+.SVGPathEye {
+  animation: eyeAnimation 2s ease-in-out infinite alternate;
+}
+
+.SVGPathIdea {
+  animation: slowMove 2s ease-in-out infinite alternate;
+}
+
+.SVGPathLine {
+  animation: slowMovePathLine 2s ease-in-out infinite alternate;
+  animation-delay: 1s;
+}
+
+@keyframes slowMovePathLine {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes slowMove {
+  0% {
+    transform: translateY(1.5rem) translateX(1.3rem);
+  }
+  50% {
+    transform: translateY(1rem) translateX(1.3rem);
+  }
+  100% {
+    transform: translateY(1.5rem) translateX(1.3rem);
+  }
+}
+
+@keyframes eyeAnimation {
+  0% {
+    fill: #000000;
+  }
+  50% {
+    fill: #000000;
+  }
+  52% {
+    fill: transparent;
+  }
+  56% {
+    fill: #000000;
+  }
+  100% {
+    fill: #000000;
+  }
 }
 
 /* @keyframes repeatImg {
